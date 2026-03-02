@@ -6,13 +6,13 @@ public class Main {
         Materia matematica = new Materia("Matematica", "MAT");
 
         Insegnante insegnante = new Insegnante(
-                "Mario", "Rossi", LocalDate.of(1980, 5, 12));
+                "Anna", "Nicolì", LocalDate.of(2008, 6, 3));
         insegnante.aggiungiMateria(matematica);
 
         Studente studente = new Studente(
-                "Luca", "Bianchi", LocalDate.of(2005, 3, 20));
+                "Hamza", "Rekik", LocalDate.of(2008, 12, 16));
 
-        Voto voto = new Voto(LocalDate.now(), matematica, 8);
+        Voto voto = new Voto(LocalDate.now(), matematica, 7);
         studente.aggiungiVoto(voto);
 
 
